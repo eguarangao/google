@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:context=".MainActivity"
+app:cardElevation="15dp"
+android:layout_margin="10dp"
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imgFacultad"
+        android:layout_width="103dp"
+        android:layout_height="121dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="txtFacultad"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="txtDireccion"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtDecano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="txtDecano"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="telefono"
+            android:textSize="15dp"></TextView>
+        <TextView
+            android:id="@+id/txtAltitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="alt"
+            android:textSize="15dp"></TextView>
+        <TextView
+            android:id="@+id/txtLatitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="lat"
+            android:textSize="15dp"></TextView>
+
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
